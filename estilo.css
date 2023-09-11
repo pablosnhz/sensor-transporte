@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: radial-gradient(circle, rgba(92,20,51,1) 0%, rgba(0,55,120,1) 100%);
+}
+
+.dondeycuanto {
+    padding: 2em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+
