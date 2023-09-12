@@ -17,9 +17,38 @@
 
 .dondeycuanto {
     padding: 2em;
+    margin: 2em;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr); /* Establecer altura automática para ambas filas */
     grid-gap: 10px;
 }
 
+.yon {
+    width: 210px; 
+    height: 50px; 
+    font-size: 26px; 
+}
 
+.destino {
+    width: 100px;
+    height: 50px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.importe {
+    width: 100px;
+    height: 50px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dondeycuanto button.presionado {
+    background-color: #2ecc71;
+    color: #fff;
+}
